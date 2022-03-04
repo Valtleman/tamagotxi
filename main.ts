@@ -73,7 +73,7 @@ input.onButtonPressed(Button.AB, function () {
         . . . . .
         . . . . .
         `)
-    basic.pause(500)
+    basic.pause(250)
     basic.showLeds(`
         . . . . .
         . . . . .
@@ -93,14 +93,14 @@ input.onButtonPressed(Button.AB, function () {
         . . . . .
         . . . # #
         . . # # #
-        . . . # .
+        . . . # #
         `)
     basic.showLeds(`
         . . . . .
         . . . . .
         . . # # #
         . # # # #
-        . # . # .
+        . . # . #
         `)
     basic.showLeds(`
         . . . . .
@@ -126,11 +126,25 @@ input.onButtonPressed(Button.B, function () {
         . # . # .
         `)
     basic.showLeds(`
+        . # . . .
+        # # # . .
+        . # # . .
+        # # # . .
         . . . . .
-        . . . . .
-        . # # # .
-        . # # # .
+        `)
+    basic.showLeds(`
         . # . # .
+        . # # # #
+        . # # # .
+        . . . . .
+        . . . . .
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . # # #
+        . . # # .
+        . . # # #
+        . . . # .
         `)
     basic.showLeds(`
         . . . . .
